@@ -1,5 +1,5 @@
 {% set name = "iacs-ipac-reader" %}
-{% set version = "0.0.7" %}
+{% set version = "0.0.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/iacs_ipac_reader-{{ version }}.tar.gz
-  sha256: 7464bd5a3f9ad66a7e2dfe6850aa47bfa79b1f75c90b2dcc0dca0fcb1c199924
+  sha256: 96c98e2e9b41bf0fc272ccd27da6801967fc65197939614fd0fb4158558ea216
 
 build:
   noarch: python
